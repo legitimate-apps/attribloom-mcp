@@ -1,6 +1,7 @@
 {
   "name": "@attribloom/mcp",
   "version": "0.1.0",
+  "mcpName": "com.attribloom/mcp",
   "description": "Attribloom MCP server · operate your tenant via the read-only management API",
   "type": "module",
   "publishConfig": {

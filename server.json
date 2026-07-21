@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.attribloom/mcp",
+  "title": "Attribloom",
+  "description": "Affiliate attribution and commission data for iOS (StoreKit 2) and Shopify",
+  "version": "0.1.0",
+  "websiteUrl": "https://attribloom.com",
+  "repository": {
+    "url": "https://github.com/attribloom/attribloom-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@attribloom/mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ATTRIBLOOM_API_KEY",
+          "description": "Tenant API key from the Attribloom dashboard (Settings, API keys). Optional: the two guidance tools work without it.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "ATTRIBLOOM_BASE_URL",
+          "description": "Management API base URL. Defaults to https://api.attribloom.com",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
