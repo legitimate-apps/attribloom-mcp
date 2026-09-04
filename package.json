@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/attribloom/attribloom-mcp.git"
+    "url": "git+https://github.com/legitimate-apps/attribloom-mcp.git"
   },
   "homepage": "https://attribloom.com/agents/ios-affiliate-attribution",
   "bugs": {
-    "url": "https://github.com/attribloom/attribloom-mcp/issues"
+    "url": "https://github.com/legitimate-apps/attribloom-mcp/issues"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

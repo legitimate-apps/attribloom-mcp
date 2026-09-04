@@ -120,7 +120,7 @@ npm test
 
 ## Related
 
-- [AttribloomKit](https://github.com/attribloom/AttribloomKit): the Swift package for StoreKit 2 attribution in iOS apps
+- [AttribloomKit](https://github.com/legitimate-apps/AttribloomKit): the Swift package for StoreKit 2 attribution in iOS apps
 - [attribloom-examples](https://github.com/legitimate-apps/attribloom-examples): signed postback, Shopify ref preservation, and StoreKit bind examples
 - [Agent onboarding guide](https://attribloom.com/agents/ios-affiliate-attribution): zero-auth integration steps written for coding agents
 - [OpenAPI spec](https://api.attribloom.com/openapi.json)

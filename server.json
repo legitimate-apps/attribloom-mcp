@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "websiteUrl": "https://attribloom.com",
   "repository": {
-    "url": "https://github.com/attribloom/attribloom-mcp",
+    "url": "https://github.com/legitimate-apps/attribloom-mcp",
     "source": "github"
   },
   "packages": [
